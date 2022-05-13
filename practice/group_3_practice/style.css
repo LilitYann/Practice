@@ -1,0 +1,124 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* .new{
+    width: 100%;
+    max-width: 1200px;
+    height: 500px;
+} */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    /* position: relative; */
+    position: fixed;
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgba(201, 218, 243, 0.516);
+    
+}
+
+.header_container{
+    margin: 0 auto;
+    /* height: 70px; */
+}
+/* header{width: 90%;
+    margin: 0 auto;
+    background-color: rgba(151, 181, 225, 0.516);
+    position: relative;
+} */
+
+.header_container{
+    display:inline;
+}
+
+nav {
+    padding: 20px;
+    display: inline;
+    position: absolute;
+    right: 0;
+    color: rgb(25, 28, 31); 
+}
+nav a{
+    margin-right: 15px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bolder;
+    color: darkcyan;
+    text-align: center;
+}
+/* ........section 1........... */
+.first_section{
+    width: 90%;
+    margin: 0 auto;
+    background-image: url("/CSS/practice/group_3_practice/img/Դիմաց_լեռ_14.jpg");
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.text{
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.section_1{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.text_2{
+    display: inline-block;
+    width: 45%;
+    height: 90px;
+    font-size: 20px;
+
+}
+
+.image_for_div{
+    margin: 0 auto;
+    display: inline-block;
+    width: 50%;
+    height: 230px;
+    background-image: url("/CSS/practice/group_3_practice/img/imggg.jpeg");
+    background-position: center;
+}
+
+.image_for_div1{
+    margin: 0 auto;
+    display: inline-block;
+    width: 50%;
+    height: 200px;
+    background-image: url("/CSS/practice/group_3_practice/img/15.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+footer{
+    width: 90%;
+    margin: 0 auto;
+    height: 150px;
+    background: rgb(35, 34, 34);
+}
+
+footer ul li{
+    
+    /* list-style: inside ; */
+    font-size: 15px;
+}
+.aaaa{
+    list-style-image: url("/CSS/practice/group_3_practice/img/search.png");
+}

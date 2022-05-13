@@ -1,0 +1,40 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(102, 141, 128);
+    font-size: 32px;
+}
+
+.list{
+    list-style: none;
+    text-align: center;
+    display: 
+}
+
+.list li{
+    display: inline;
+}
+
+.link{
+    /* margin-block: 2px; */
+    text-decoration: none;
+    color: rgb(32, 30, 30);
+    position: relative;
+}
+
+.link::after{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: rgb(29, 32, 31);
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .25s ease;
+}
+
+.link:hover::after{
+    transform: scaleX(1);
+}
