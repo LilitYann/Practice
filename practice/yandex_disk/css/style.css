@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    min-width: 1200px;
+}
+
+.btn{
+    padding: 16px 75px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    box-shadow: 0 36px 30px rgba(242, 174, 27, 0.266);
+    border-radius: 100px;
+    border:none;
+    background-image: linear-gradient(94deg,#ff6d70,#ff8b2c);
+    cursor: pointer;
+}
+
+.btn img{
+    margin-left: 10px;
+}
+
+/* ..............header............ */
+header{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 16px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .for_info{
+    display: flex;
+    justify-content: space-between;
+    width: 390px;
+    align-items: center;
+    /* position: fixed; */
+}
+
+header .for_info .disk_for_windows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    background-color: rgb(246, 246, 246);
+    border: 1px solid rgb(224, 224, 224);
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+
+header .for_info .disk_for_windows:hover{
+    opacity: .7;
+    cursor: pointer;
+}
+
+header .for_info .disk_for_windows a{
+    color: black;
+    font-size: 17px;
+    padding: 5px;
+}
+
+header .To_come_in{
+    display: flex;
+    align-items: center;
+    height: 38px;
+    background-color: rgba(54, 54, 54, 0.819);
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+
+header .To_come_in:hover{
+    opacity: .7;
+    cursor: pointer;
+}
+
+header .To_come_in a{
+    padding: 5px;
+    font-size: 17px;
+    color: white;
+}
+
+/* ....................... main 1................ */
+
+.main1 .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: 20px auto;
+    padding: 16px 0;
+}
+
+.main1 .container .content{
+    font-size: 24px;
+    /* color: rgb(222, 220, 220); */
+}
+
+.main1 .container .content h1, p{
+    padding-bottom: 70px;
+}
+
+
+
+
